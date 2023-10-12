@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "upwork rza";
+}
+
+.main {
+    /* height: 125vh; */
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.main nav {
+    height: 5%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.nav_left img {
+    height: 50%;
+    width: 50%;
+}
+
+.nav_right {
+    display: flex;
+    gap: 20px;
+}
+
+.nav_right a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.home {
+    height: 135vh;
+    width: 100%;
+    position: relative;
+    /* background-color: brown; */
+}
+
+.home_top {
+    height: 55%;
+    width: 100%;
+    background-color: #13544e;
+    display: flex;
+    padding: 30px 60px;
+    border-bottom: 4px solid black;
+}
+
+.home_top .left {
+    height: 100%;
+    width: 50%;
+    font-family: "upwork rza";
+}
+
+.home_top .left h1 {
+    font-size: 230px;
+    color: #91e6b3;
+    letter-spacing: -0.045em;
+    font-weight: 400;
+}
+
+.home_top .right {
+    height: 100%;
+    width: 50%;
+    padding-top: 20px;
+}
+
+.home_top .right h2 {
+    font-family: "upwork rza";
+    font-size: 60px;
+    color: #91e6b3;
+    font-weight: 400;
+    line-height: 85px;
+}
+
+.home_top .right p {
+    font-size: 22px;
+    font-family: "neue montreal";
+    color: #fff;
+    line-height: 25px;
+    /* font-weight: 100; */
+    opacity: .9;
+}
+
+.home_bottom {
+    height: 45%;
+    width: 100%;
+    border-bottom: 4px solid black;
+
+}
+
+.home_image {
+    /* background-color: chartreuse; */
+    position: absolute;
+    bottom: 0%;
+}
+
+.home_image img {
+    height: 100%;
+    width: 100%;
+}
+
+.page2 {
+    height: 150%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.scroll_section {
+    height: 15%;
+    width: 100%;
+    background-color: #e4ebe4;
+    /* border-bottom: 4px solid black; */
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.part1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    animation: anime 8s linear infinite;
+}
+
+.part1 img {
+    height: 40%;
+    width: 40%;
+}
+
+.part2 {
+    height: 85%;
+    width: 100%;
+    background-color: gray;
+}
+
+#top {
+    height: 50%;
+    width: 100%;
+    background-color: greenyellow;
+    display: flex;
+}
+
+#bottom {
+    height: 50%;
+    width: 100%;
+    background-color: greenyellow;
+    display: flex;
+}
+
+.boxes {
+    width: 33.33%;
+    height: 100%;
+    background-color: bisque;
+    border: 1px solid black;
+    position: relative;
+}
+
+.boxes img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+#image-vissible img {
+    display: initial;
+}
+
+.upper {
+    height: 75%;
+    width: 100%;
+    border-bottom: 3px solid black;
+    padding: 20px;
+}
+
+.upper h2 {
+    font-size: 60px;
+    font-weight: 200;
+}
+
+.lower {
+    height: 25%;
+    width: 100%;
+    border-bottom: 2px;
+    padding: 20px;
+
+}
+
+.lower p {
+    font-size: 35px;
+    font-weight: 100;
+}
+
+#image-vissible:hover img {
+    display: none;
+}
+
+#on-hover:hover img {
+    display: initial;
+}
+
+.page3 {
+    height: 130%;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.title {
+    height: 15%;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title h3 {
+    font-size: 27px;
+    font-family: "neue montreal medium";
+    font-weight: 200;
+}
+
+.page3_part {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    border-bottom: 4px solid black;
+}
+
+.page3_part .left {
+    height: 100%;
+    width: 50%;
+    background-color: aquamarine;
+}
+.page3_part .left .upper{
+    height: 30%;
+    width: 100%;
+    background-color: #beccbe;
+    border-bottom: 4px solid black;
+}
+.page3_part .left h1{
+    font-size: 85px;
+    font-weight: 400;
+    
+}
+.page3_part .left p{
+    font-size: 30px;
+    font-family: "neue montreal medium";
+}
+.page3_part .left h2{
+    font-size: 45px;
+    font-weight: 200;
+}
+.page3_part .left .lower{
+    height: 70%;
+    background-color:#e4ebe4 ;
+}
+.page3_part .lower p{
+    padding-top: 20px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.page3_part .right {
+    height: 100%;
+    width: 50%;
+    padding: 25px;
+    background-color: rgb(178, 61, 26);
+    border-left: 4px solid black;
+  
+}
+.page3_part .right h1{
+    font-size: 45px;
+    font-weight: 300;
+    color: #fff;
+}
+.page4{
+    height: 70%;
+    width: 100%;
+    background-color:#bda1e7;
+    display: flex;
+}
+.page4_left{
+    height: 100%;
+    width: 50%;
+}
+.page4_right{
+    height: 100%;
+    width: 50%;
+}
+
+
+
+
+
+@keyframes anime {
+    from {
+        transform: translate(0);
+    }
+
+    to {
+        transform: translate(-100%);
+    }
+}
